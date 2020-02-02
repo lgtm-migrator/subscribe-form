@@ -20,7 +20,7 @@ I wanna to be able to deploy it, maybe to Zeit NOW will be fine, so we can show/
 - https://github.com/prisma-labs/graphql-yoga
 - https://itnext.io/building-a-graphql-api-using-graphql-yoga-lambda-and-mongodb-c0c195621f47
 
-
+---
 
 
 - advanced "serverless" email subscription form
@@ -43,11 +43,17 @@ Plus, responsive layout
 
 Estimate: 
 
+---
+
 ### Stage 1
 Estimate: 
 
+---
+
 ### Stage 2
 Estimate:
+
+---
 
 ### Unfiltered below
 

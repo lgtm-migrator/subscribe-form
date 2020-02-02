@@ -1,5 +1,12 @@
 # subscribe-form
 
+We need to create simple, but custom form for newsletter subscription.
+If you can google - "graphql email form" and find what we can use - do it, might save us some time.
+I wanna use GraphQL, because it's cool and might help us. Below check some tutorials.
+We'll have form with 5-6 fields in it. Better to separate fields as subcomponents.
+
+I wanna to be able to deploy it, maybe to Zeit NOW will be fine, so we can show/test it online.
+
 ## Links to read
 
 - https://hackernoon.com/building-and-launching-an-advanced-email-marketing-app-in-just-4-weeks-yw1im30u8
@@ -13,11 +20,14 @@
 - https://github.com/prisma-labs/graphql-yoga
 - https://itnext.io/building-a-graphql-api-using-graphql-yoga-lambda-and-mongodb-c0c195621f47
 
-advanced "serverless" email subscription form, 
-react
-[react ant design](https://github.com/ant-design/ant-design)
-[formik](https://github.com/jaredpalmer/formik) for validation
-graphql as backend.
+
+
+
+- advanced "serverless" email subscription form
+- react
+- [react ant design](https://github.com/ant-design/ant-design)
+- [formik](https://github.com/jaredpalmer/formik) for validation
+- graphql as backend.
 
 Current version http://eepurl.com/dLI7so
 
@@ -26,9 +36,18 @@ Plus, responsive layout
 
 ### Stage 0 
  - repository setup
- - CRA simple form (email + submit + validation)
+ - CRA simple form (email field + submit button + validation)
  - graphql init
  - after successful submit, emails goes into graphql db, then redirect to thank you page(h1 only)
+ - we can also
+
+Estimate: 
+
+### Stage 1
+Estimate: 
+
+### Stage 2
+Estimate:
 
 ### Unfiltered below
 

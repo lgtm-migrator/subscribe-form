@@ -27,3 +27,11 @@ https://github.com/atherdon/creative/blob/master/BrandAssets/Noonifications/Prod
 
 https://github.com/atherdon/creative/blob/master/BrandAssets/Noonifications/ProductHunt/noon%20notification%20logo-profile%20(3).png
 
+
+
+----
+
+
+https://forms.technologyreview.com/newsletters/
+
+https://forms.technologyreview.com/the-algorithm/

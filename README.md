@@ -5,8 +5,13 @@
 - https://hackernoon.com/building-and-launching-an-advanced-email-marketing-app-in-just-4-weeks-yw1im30u8
 - https://www.freecodecamp.org/news/our-nonprofit-needed-a-cheaper-way-to-send-email-blasts-so-we-engineered-one-167322e3f28e/
 - https://github.com/freeCodeCamp/mail-for-good
+
 - https://hackernoon.com/setting-up-a-serverless-contact-form-in-react-using-nodemailer-and-express-19df9fdb20ed
 - https://github.com/sheelah/react-form-submission-demo
+
+- https://www.howtographql.com/react-apollo/0-introduction/
+- https://github.com/prisma-labs/graphql-yoga
+- https://itnext.io/building-a-graphql-api-using-graphql-yoga-lambda-and-mongodb-c0c195621f47
 
 advanced "serverless" email subscription form, 
 react

@@ -19,6 +19,11 @@ Current version http://eepurl.com/dLI7so
 Plus, responsive layout
 
 
+### Stage 0 
+ - repository setup
+ - CRA simple form (email + submit + validation)
+ - graphql init
+ - after successful submit, emails goes into graphql db, then redirect to thank you page(h1 only)
 
 ### Unfiltered below
 

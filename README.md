@@ -36,7 +36,7 @@ Plus, responsive layout
 
 ### Stage 0 
  - repository setup
- - CRA simple form (email field + submit button + validation)
+ - CRA simple form (email field + submit button + validation) - https://ant.design/components/form/
  - graphql init
  - after successful submit, emails goes into graphql db, then redirect to thank you page(h1 only)
  - we can also

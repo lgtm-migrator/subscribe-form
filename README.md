@@ -85,6 +85,9 @@ https://medium.com/@abhinavchhikara/nir-eyal-s-killer-email-signup-flow-64009b16
 
 https://www.precisionmarketinggroup.com/blog/how-to-get-people-to-subscribe
 
+
+https://www.precisionmarketinggroup.com/blog/new-leads-in-minutes-building-your-first-hubspot-lead-flow
+
 ----
 
 

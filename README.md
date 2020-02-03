@@ -79,8 +79,8 @@ https://github.com/atherdon/creative/blob/master/BrandAssets/Noonifications/Prod
 
 https://github.com/atherdon/creative/blob/master/BrandAssets/Noonifications/ProductHunt/noon%20notification%20logo-profile%20(3).png
 
-
-
+https://marketingexamples.com/conversion/newsletter-signup-flow
+https://medium.com/@abhinavchhikara/nir-eyal-s-killer-email-signup-flow-64009b16bc9b
 ----
 
 

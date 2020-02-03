@@ -91,6 +91,20 @@ https://www.precisionmarketinggroup.com/blog/new-leads-in-minutes-building-your-
 ----
 
 
+Spam prevention
+
+https://dev.to/felipperegazio/how-to-create-a-simple-honeypot-to-protect-your-web-forms-from-spammers--25n8
+https://stackoverflow.com/questions/36227376/better-honeypot-implementation-form-anti-spam
+https://elasticemail.com/blog/marketing_tips/how-to-prevent-bots-from-spamming-your-sign-up-forms
+
+
+GDPR
+
+https://www.npmjs.com/package/react-gdpr-consent
+https://github.com/erichard/awesome-gdpr
+https://www.mindk.com/blog/how-to-make-your-software-gdpr-compliant/
+
+
 https://forms.technologyreview.com/newsletters/
 
 https://forms.technologyreview.com/the-algorithm/

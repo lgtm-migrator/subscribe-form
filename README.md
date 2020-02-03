@@ -88,6 +88,18 @@ https://www.precisionmarketinggroup.com/blog/how-to-get-people-to-subscribe
 
 https://www.precisionmarketinggroup.com/blog/new-leads-in-minutes-building-your-first-hubspot-lead-flow
 
+
+https://medium.com/stack-overflow-design/designing-a-better-email-preference-center-4fddd44b91b5
+
+
+https://medium.com/@donnachoi/stack-overflow-email-management-a-ux-case-study-964784da541b
+
+https://restdb.io/blog/how-we-created-developer-friendly-email-campaign-tool-using-serverless
+
+
+https://stackoverflow.com/questions/28876040/most-efficient-way-to-send-newsletters
+
+
 ----
 
 

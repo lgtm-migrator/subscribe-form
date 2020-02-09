@@ -1,26 +1,57 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { Formik } from 'formik';
+import { Form, Icon, Input, Button } from 'antd';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class SubscriptionForm extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  getFieldDecorator = e => {
+
+  }
+
+  getFieldsError = e => {
+
+  }
+
+  render() {
+    const usernameError = '';
+    const passwordError = '';
+    const hasErrors = false;
+
+    return (
+      <Form onSubmit={this.handleSubmit}>
+        <Form.Item validateStatus={usernameError ? 'error' : ''} help={usernameError || ''}>
+          {this.getFieldDecorator('username', {
+            rules: [{ required: true, message: 'Please input your username!' }],
+          })(
+            <Input
+              prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+              placeholder="Username"
+            />,
+          )}
+        </Form.Item>
+        <Form.Item validateStatus={passwordError ? 'error' : ''} help={passwordError || ''}>
+          {this.getFieldDecorator('password', {
+            rules: [{ required: true, message: 'Please input your Password!' }],
+          })(
+            <Input
+              prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
+              type="password"
+              placeholder="Password"
+            />,
+          )}
+        </Form.Item>
+        <Form.Item>
+          <Button type="primary" htmlType="submit" disabled={hasErrors(this.getFieldsError())}>
+            Log in
+          </Button>
+        </Form.Item>
+      </Form>
+    );
+  }
 }
 
-export default App;
+export default SubscriptionForm;

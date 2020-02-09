@@ -1,68 +1,89 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# subscribe-form
 
-## Available Scripts
+We need to create simple, but custom form for newsletter subscription.
+If you can google - "graphql email form" and find what we can use - do it, might save us some time.
+I wanna use GraphQL, because it's cool and might help us. Below check some tutorials.
+We'll have form with 5-6 fields in it. Better to separate fields as subcomponents.
 
-In the project directory, you can run:
+I wanna to be able to deploy it, maybe to Zeit NOW will be fine, so we can show/test it online.
 
-### `yarn start`
+## Links to read
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- https://hackernoon.com/building-and-launching-an-advanced-email-marketing-app-in-just-4-weeks-yw1im30u8
+- https://www.freecodecamp.org/news/our-nonprofit-needed-a-cheaper-way-to-send-email-blasts-so-we-engineered-one-167322e3f28e/
+- https://github.com/freeCodeCamp/mail-for-good
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- https://hackernoon.com/setting-up-a-serverless-contact-form-in-react-using-nodemailer-and-express-19df9fdb20ed
+- https://github.com/sheelah/react-form-submission-demo
 
-### `yarn test`
+- https://www.howtographql.com/react-apollo/0-introduction/
+- https://github.com/prisma-labs/graphql-yoga
+- https://itnext.io/building-a-graphql-api-using-graphql-yoga-lambda-and-mongodb-c0c195621f47
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- advanced "serverless" email subscription form
+- react
+- [react ant design](https://github.com/ant-design/ant-design)
+- [formik](https://github.com/jaredpalmer/formik) for validation
+- graphql as backend.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Current version http://eepurl.com/dLI7so
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Plus, responsive layout
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Stage 0
+ - repository setup
+ - CRA simple form (email field + submit button + validation) - https://ant.design/components/form/
+ - graphql init
+ - after successful submit, emails goes into graphql db, then redirect to thank you page(h1 only)
+ - we can also
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Estimate:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Stage 1
+Estimate:
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Stage 2
+Estimate:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### Unfiltered below
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+> Let's make unsubscribes cleaner (accidently posted in archived channel previously)
 
-### Making a Progressive Web App
+> unsubscribes should be one click with url opened as confirmation. its ok if more ppl do it, dont want to send to ppl who dont appreciate us
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Simple flow: https://www.lennyrachitsky.com/
 
-### Deployment
+Previous issues: https://www.getrevue.co/profile/platformstream
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Newsletters collection: https://www.kickstarter.com/newsletters
 
-### `yarn build` fails to minify
+https://github.com/atherdon/creative/blob/master/BrandAssets/Noonifications/ProductHunt/Untitled%20design%20(51).png
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+https://github.com/atherdon/creative/blob/master/BrandAssets/Noonifications/ProductHunt/noon%20notification%20(1).png
+
+https://github.com/atherdon/creative/blob/master/BrandAssets/Noonifications/ProductHunt/noon%20notification%20logo-profile%20(3).png
+
+
+
+----
+
+
+https://forms.technologyreview.com/newsletters/
+
+https://forms.technologyreview.com/the-algorithm/

@@ -1,52 +1,56 @@
 import React, { Component } from 'react';
-import { Formik } from 'formik';
 import { Form, Icon, Input, Button } from 'antd';
-import './App.css';
 
-class SubscriptionForm extends React.Component {
-  constructor(props) {
-    super(props);
+function hasErrors(fieldsError) {
+  return Object.keys(fieldsError).some(field => fieldsError[field]);
+}
+
+class HorizontalLoginForm extends React.Component {
+  componentDidMount() {
+    // To disable submit button at the beginning.
+    this.props.form.validateFields();
   }
 
-  getFieldDecorator = e => {
-
-  }
-
-  getFieldsError = e => {
-
-  }
+  handleSubmit = e => {
+    e.preventDefault();
+    this.props.form.validateFields((err, values) => {
+      if (!err) {
+        console.log('Received values of form: ', values);
+      }
+    });
+  };
 
   render() {
-    const usernameError = '';
-    const passwordError = '';
-    const hasErrors = false;
+    const { getFieldDecorator, getFieldsError, getFieldError, isFieldTouched } = this.props.form;
 
+    // Only show error after a field is touched.
+    const usernameError = isFieldTouched('username') && getFieldError('username');
+    const passwordError = isFieldTouched('password') && getFieldError('password');
     return (
-      <Form onSubmit={this.handleSubmit}>
+      <Form onSubmit={this.handleSubmit} className="form-subscribe">
         <Form.Item validateStatus={usernameError ? 'error' : ''} help={usernameError || ''}>
-          {this.getFieldDecorator('username', {
+          {getFieldDecorator('email', {
             rules: [{ required: true, message: 'Please input your username!' }],
           })(
             <Input
               prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-              placeholder="Username"
+              placeholder="Email"
             />,
           )}
         </Form.Item>
         <Form.Item validateStatus={passwordError ? 'error' : ''} help={passwordError || ''}>
-          {this.getFieldDecorator('password', {
-            rules: [{ required: true, message: 'Please input your Password!' }],
+          {getFieldDecorator('name', {
+            rules: [{ required: true, message: 'Please input your name!' }],
           })(
             <Input
               prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
-              type="password"
-              placeholder="Password"
+              placeholder="Your first name"
             />,
           )}
         </Form.Item>
         <Form.Item>
-          <Button type="primary" htmlType="submit" disabled={hasErrors(this.getFieldsError())}>
-            Log in
+          <Button type="primary" htmlType="submit" disabled={hasErrors(getFieldsError())}>
+            Subscribe
           </Button>
         </Form.Item>
       </Form>
@@ -54,4 +58,6 @@ class SubscriptionForm extends React.Component {
   }
 }
 
-export default SubscriptionForm;
+const WrappedHorizontalLoginForm = Form.create({ name: 'horizontal_login' })(HorizontalLoginForm);
+
+export default WrappedHorizontalLoginForm;

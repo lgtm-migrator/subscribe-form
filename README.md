@@ -1,5 +1,10 @@
 # subscribe-form
 
+Form server can be launched by:
+```
+npm run start
+```
+
 We need to create simple, but custom form for newsletter subscription.
 If you can google - "graphql email form" and find what we can use - do it, might save us some time.
 I wanna use GraphQL, because it's cool and might help us. Below check some tutorials.

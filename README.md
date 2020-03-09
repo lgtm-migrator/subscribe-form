@@ -7,6 +7,8 @@ We'll have form with 5-6 fields in it. Better to separate fields as subcomponent
 
 I wanna to be able to deploy it, maybe to Zeit NOW will be fine, so we can show/test it online.
 
+https://github.com/atherdon/subscription-server
+
 ## Links to read
 
 - https://hackernoon.com/building-and-launching-an-advanced-email-marketing-app-in-just-4-weeks-yw1im30u8

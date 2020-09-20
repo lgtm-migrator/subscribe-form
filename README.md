@@ -167,4 +167,15 @@ https://www.getresponse.com/features#FeatureBox
 
 https://www.sendinblue.com/features/
 
+==================
 
+
+https://docs.bitnami.com/aws/how-to/use-ses/
+
+https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-email-getting-started-prerequisites.html
+
+https://stackoverflow.com/questions/63150672/impact-of-migrating-to-signature-version-4-in-aws-ses-where-we-use-aws-ses-smtp
+
+https://aws.amazon.com/ru/premiumsupport/knowledge-center/ses-migrate-email-solution/
+
+http://jonathanwthomas.net/quitting-mailchimp-and-moving-my-small-business-email-marketing-to-sendy-for-a-fraction-of-the-cost/

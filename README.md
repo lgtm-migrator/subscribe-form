@@ -1,5 +1,10 @@
 # subscribe-form
 
+Form server can be launched by:
+```
+npm run start
+```
+
 We need to create simple, but custom form for newsletter subscription.
 If you can google - "graphql email form" and find what we can use - do it, might save us some time.
 I wanna use GraphQL, because it's cool and might help us. Below check some tutorials.
@@ -36,19 +41,19 @@ Current version http://eepurl.com/dLI7so
 Plus, responsive layout
 
 
-### Stage 0 
+### Stage 0
  - repository setup
  - CRA simple form (email field + submit button + validation) - https://ant.design/components/form/
  - graphql init
  - after successful submit, emails goes into graphql db, then redirect to thank you page(h1 only)
  - we can also
 
-Estimate: 
+Estimate:
 
 ---
 
 ### Stage 1
-Estimate: 
+Estimate:
 
 ---
 
@@ -123,6 +128,20 @@ https://forms.technologyreview.com/newsletters/
 
 https://forms.technologyreview.com/the-algorithm/
 
+
+## Time report
+
+| Date          | Task                                        |  Time spent (HH:mm) | Description                                                                                                                                         |
+|---------------|---------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sat, 22nd Feb | front-react-markup                          | 4:00                | Markup in react-create-app of the form, ant-design used, primitive validation used. Usage of formik was droped                                      |
+| Sat, 29th Feb | mongo-driver                                | 8:00                | Database creation, was used Mongo DB. Created pure GraphQL server with driver with simple endpoints to save/remove subscribers from DB collections. |
+| Mon, 9th Mar  | api connection                              | 6:34                | Unsucsessfull try to connect frontend and backend API's. Research for frontend GraphQL libraries or realisation examples.                           |
+| Sun, 15th Mar | relay introduction                          | 5:31                | Choosed Relay project, inctroduction to relay, relay architecture observation                                                                       |
+| Sun, 29th Mar | meeting, pages mockups, mutations for front | 4:32                | Creation of pages wireframes, research of mutations on front side of project. Discussion of proejct architecture (not done, still unclear)          |
+| Mon, 20th Apr | Time report                                 | 1:00                | Data gathering for time report                                                                                                                      |
+|               |                                             | Total 28:36         |                                                                                                                                                     |
+
+
 ---
 
 
@@ -167,7 +186,7 @@ https://www.getresponse.com/features#FeatureBox
 
 https://www.sendinblue.com/features/
 
-==================
+
 
 
 https://docs.bitnami.com/aws/how-to/use-ses/
@@ -179,3 +198,4 @@ https://stackoverflow.com/questions/63150672/impact-of-migrating-to-signature-ve
 https://aws.amazon.com/ru/premiumsupport/knowledge-center/ses-migrate-email-solution/
 
 http://jonathanwthomas.net/quitting-mailchimp-and-moving-my-small-business-email-marketing-to-sendy-for-a-fraction-of-the-cost/
+>>

@@ -12,6 +12,8 @@ We'll have form with 5-6 fields in it. Better to separate fields as subcomponent
 
 I wanna to be able to deploy it, maybe to Zeit NOW will be fine, so we can show/test it online.
 
+https://github.com/atherdon/subscription-server
+
 ## Links to read
 
 - https://hackernoon.com/building-and-launching-an-advanced-email-marketing-app-in-just-4-weeks-yw1im30u8
@@ -84,14 +86,48 @@ https://github.com/atherdon/creative/blob/master/BrandAssets/Noonifications/Prod
 
 https://github.com/atherdon/creative/blob/master/BrandAssets/Noonifications/ProductHunt/noon%20notification%20logo-profile%20(3).png
 
+https://marketingexamples.com/conversion/newsletter-signup-flow
+
+https://medium.com/@abhinavchhikara/nir-eyal-s-killer-email-signup-flow-64009b16bc9b
+
+https://www.precisionmarketinggroup.com/blog/how-to-get-people-to-subscribe
+
+
+https://www.precisionmarketinggroup.com/blog/new-leads-in-minutes-building-your-first-hubspot-lead-flow
+
+
+https://medium.com/stack-overflow-design/designing-a-better-email-preference-center-4fddd44b91b5
+
+
+https://medium.com/@donnachoi/stack-overflow-email-management-a-ux-case-study-964784da541b
+
+https://restdb.io/blog/how-we-created-developer-friendly-email-campaign-tool-using-serverless
+
+
+https://stackoverflow.com/questions/28876040/most-efficient-way-to-send-newsletters
 
 
 ----
 
 
+Spam prevention
+
+https://dev.to/felipperegazio/how-to-create-a-simple-honeypot-to-protect-your-web-forms-from-spammers--25n8
+https://stackoverflow.com/questions/36227376/better-honeypot-implementation-form-anti-spam
+https://elasticemail.com/blog/marketing_tips/how-to-prevent-bots-from-spamming-your-sign-up-forms
+
+
+GDPR
+
+https://www.npmjs.com/package/react-gdpr-consent
+https://github.com/erichard/awesome-gdpr
+https://www.mindk.com/blog/how-to-make-your-software-gdpr-compliant/
+
+
 https://forms.technologyreview.com/newsletters/
 
 https://forms.technologyreview.com/the-algorithm/
+
 
 ## Time report
 
@@ -104,3 +140,62 @@ https://forms.technologyreview.com/the-algorithm/
 | Sun, 29th Mar | meeting, pages mockups, mutations for front | 4:32                | Creation of pages wireframes, research of mutations on front side of project. Discussion of proejct architecture (not done, still unclear)          |
 | Mon, 20th Apr | Time report                                 | 1:00                | Data gathering for time report                                                                                                                      |
 |               |                                             | Total 28:36         |                                                                                                                                                     |
+
+
+---
+
+
+google rss feed microservice or rss feed service
+https://www.google.com/search?q=rss+feed+email+service&rlz=1C1GCEA_enUA850UA850&oq=rss+feed+email+service&aqs=chrome..69i57j33l3.10640j0j1&sourceid=chrome&ie=UTF-8
+
+
+https://ifttt.com/applets/147561p-rss-feed-to-email
+
+https://fliprss.com/
+
+https://www.thatsjournal.com/blog-resources/list-of-best-feed-management-rss-to-email-subscription-services-feedburner-alternatives
+
+https://www.sendinblue.com/plugins/
+
+https://www.mailerlite.com/features/rss-to-email
+
+https://mayecreate.com/blog/rss-to-email-newsletter-integration/
+
+https://blog.mailup.com/2012/11/newsletter-from-blog-rss/
+
+https://blog.dlvrit.com/rss-to-email/
+
+https://goodbits.io/rss-to-email-newsletters
+
+https://www.getresponse.com/features#FeatureBox
+
+https://www.getresponse.com/integrations
+
+https://zapier.com/apps/rss/integrations?utm_source=google&utm_medium=cpc&utm_campaign=gaw-row-nua-search-general-brand_exact&utm_term=zapier%20rss%20feed&utm_content=_pcrid_415928291421_pkw_zapier%20rss%20feed_pmt_e_pdv_c_slid__pgrid_88777571010_ptaid_kwd-791619842134_&gclid=Cj0KCQiAm4TyBRDgARIsAOU75sq2tgePUHpDafVnE3gyK8pHiqyjugNbUuwRuCUyIof7WxExBe4TzwYaAojLEALw_wcB
+
+https://www.wpbeginner.com/showcase/best-mailchimp-alternatives/
+
+https://www.sendinblue.com/features/email-marketing/
+https://mailgaze.com/pricing/
+
+https://convertkit.com/features
+
+https://www.mailerlite.com/features
+
+https://www.getresponse.com/features#FeatureBox
+
+https://www.sendinblue.com/features/
+
+
+
+
+https://docs.bitnami.com/aws/how-to/use-ses/
+
+https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-email-getting-started-prerequisites.html
+
+https://stackoverflow.com/questions/63150672/impact-of-migrating-to-signature-version-4-in-aws-ses-where-we-use-aws-ses-smtp
+
+https://aws.amazon.com/ru/premiumsupport/knowledge-center/ses-migrate-email-solution/
+
+http://jonathanwthomas.net/quitting-mailchimp-and-moving-my-small-business-email-marketing-to-sendy-for-a-fraction-of-the-cost/
+>>

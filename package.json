@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "5.11.6",
     "@testing-library/react": "11.2.2",
     "@testing-library/user-event": "7.2.1",
-    "antd": "3.26.20",
+    "antd": "4.9.0",
     "formik": "2.2.5",
     "react": "16.14.0",
     "react-dom": "16.14.0",

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,25 +13,30 @@
 	<link rel="stylesheet" href="css/subscribe-form.css">
 	<title>dashb hackernoon -- subscribe form</title>
 </head>
+
 <body>
 	<div class="subs-form">
 		<div class="subs-form__wrapper">
 			<div class="subs-form__logo">
 				<img src="img/hackernoon.png" alt="">
 			</div>
-			<form class="subs-form__form">
+			<form class="subs-form__form" action="https://www.noonifications.tech/subscribe" method="POST" accept-charset="utf-8">
 
 				<div class="subs-form__inner">
 					<p class="subs-form__text">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime cumque dolore sequi quis rem ut
-						assumenda quo perspiciatis inventore neque quae corporis debitis enim harum quaerat eveniet, beatae
-						nostrum! Iusto?
+						be the first to read the freshest tech stories from <a class="subs-form__link"
+							href="http://hackernoon.com/">[hackernoon.com]</a>
+						by subscribing to <a class="subs-form__link" href="https://www.techbrief.hackernoon.com/">[the tech
+							brief]</a> :
+						an indiscriminate daily digest from our RSS feed for your reading pleasure and professional
+						development.
 					</p>
 
 					<p class="subs-form__text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, modi quis earum consectetur
-						culpa autem distinctio nam a, debitis fugit quasi laudantium sint enim, pariatur commodi laborum. Sed,
-						minus dicta!
+						oh! and if you let us know which of our editorial streams most floats your boat,
+						we'll also send you the occasional curated letter from one of the humans on
+						our team of editors - all of whom are far too busy
+						publishing stories to spam you in any way, we promise.
 					</p>
 				</div>
 
@@ -50,37 +56,50 @@
 					<p>how can hacker noon improve your inbox?</p>
 
 					<label class="subs-form__check-label">
-						<input type="checkbox">
+						<input type="checkbox" name="gdpr" id="gdpr">
 						<span class="subs-form__checkbox"></span>
 						<span class="subs-form__checkbox-text">gimme the noon notification</span>
 
 					</label>
 
 					<label class="subs-form__check-label">
-						<input type="checkbox">
+						<input type="checkbox" name="bruh" id="bruh">
 						<span class="subs-form__checkbox"></span>
 						<span class="subs-form__checkbox-text">do you even blockchain/crypto bruh</span>
 
 					</label>
 
 					<label class="subs-form__check-label">
-						<input type="checkbox">
+						<input type="checkbox" name="cleancode" id="cleancode">
 						<span class="subs-form__checkbox"></span>
 						<span class="subs-form__checkbox-text">I like clean code and I cannot lie</span>
 					</label>
 
 					<label class="subs-form__check-label">
-						<input type="checkbox">
+						<input type="checkbox" name="stories" id="stories">
 						<span class="subs-form__checkbox"></span>
-						<span class="subs-form__checkbox-text">send me stories about stratups and the future of everything</span>
+						<span class="subs-form__checkbox-text">send me stories about stratups and the future of
+							everything</span>
 					</label>
 
 				</div>
 
-				<button class="subs-form__btn" type="submit">Get great stories by email</button>
+				<div style="display:none;">
+					<label for="hp">HP</label>
+					<input type="text" name="hp" id="hp" />
+				</div>
+				<input type="hidden" name="list" value="6eFZ90f1kttGwawbnQXMYg" />
+				<input type="hidden" name="subform" value="yes" />
+
+				<button class="subs-form__btn" type="submit" name="submit" id="submit">Get great stories by email</button>
 
 			</form>
+		
+			
+		
+		
 		</div>
 	</div>
 </body>
+
 </html>

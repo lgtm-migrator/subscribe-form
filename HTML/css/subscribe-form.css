@@ -193,6 +193,12 @@ p {
 	opacity: 1;
 }
 
+.subs-form__link {
+	text-decoration: none;
+	font-weight: 700;
+	color: #000;
+}
+
 .goodbye {
 	display: flex;
 	align-items: center;

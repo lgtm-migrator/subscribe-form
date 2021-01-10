@@ -250,8 +250,18 @@ p {
 		font-size: 14px;
 	}
 
+	.subs-form__checkboxes {
+		margin-top: 20px;
+	}
+
+	.subs-form__check-label:not(:last-child) {
+		margin-bottom: 10px;
+	}
+
+	
+
 	.subs-form__btn {
-		margin-top: 25px;
+		margin-top: 40px;
 	}
 }
 
@@ -264,6 +274,10 @@ p {
 		margin-bottom: 10px;
 	}
 
+	.subs-form__checkboxes {
+		margin-top: 10px;
+	}
+
 	.subs-form__btn {
 		margin-top: 10px;
 	}
@@ -271,11 +285,11 @@ p {
 
 @media only screen and (max-width: 320px) {
 	.subs-form__inner {
-		padding: 5px;
+		padding: 10px;
 	}
 
 	.subs-form__text {
-		font-size: 8px;
+		font-size: 11px;
 	}
 
 	.subs-form__inputs {

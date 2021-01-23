@@ -239,11 +239,19 @@ p {
 
 @media only screen and (max-width: 414px) {
 	.subs-form {
-		padding: 10px;
+		padding: 0px;
 	}
 
 	.subs-form__inner {
 		padding: 20px 10px 0;
+	}
+
+	.subs-form__labels span {
+		margin-bottom: 5px;
+	}
+
+	.subs-form__labels:not(:last-child) {
+		margin-bottom: 10px;
 	}
 
 	.subs-form__text {
@@ -255,7 +263,7 @@ p {
 	}
 
 	.subs-form__check-label:not(:last-child) {
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 
 	

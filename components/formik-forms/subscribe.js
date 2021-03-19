@@ -4,7 +4,7 @@ import { SUBSCRIBE_ACTION } from '../../constants/path';
 import Input from '../Input';
 import Checkbox from '../Checkbox';
 
-const SignupForm = () => {
+const SubscribeForm = () => {
     const formik = useFormik({
         initialValues: {
             email: '',
@@ -110,4 +110,4 @@ const SignupForm = () => {
     )
 };
 
-export default SignupForm;
+export default SubscribeForm;

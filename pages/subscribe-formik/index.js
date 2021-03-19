@@ -1,5 +1,5 @@
-import SignupForm from '../../components/formik-forms/subscribe';
+import SubscribeForm from '../../components/formik-forms/subscribe';
 
-const form = () => <SignupForm />
+const form = () => <SubscribeForm />
 
 export default form;

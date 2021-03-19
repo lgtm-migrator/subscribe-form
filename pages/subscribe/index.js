@@ -1,5 +1,5 @@
-import Subscribe from '../../components/subscribe';
+import SubscribeForm from '../../components/forms/subscribe';
 
-const subscribe = () => <Subscribe />
+const form = () => <SubscribeForm />
 
-export default subscribe;
+export default form;

@@ -3,13 +3,24 @@ import { useFormik } from 'formik';
 import { SUBSCRIBE_ACTION } from '../../constants/path';
 import Input from '../Input';
 import Checkbox from '../Checkbox';
+import * as Yup from 'yup';
 
 const SubscribeForm = () => {
     const formik = useFormik({
         initialValues: {
             email: '',
             name: ''
-        }
+        },
+        validationSchema: Yup.object({
+            email: Yup.string()
+                .min(5, 'Too Short!')
+                .email('Invalid email address!')
+                .required('Email is required!'),
+            name: Yup.string()
+                .min(2, 'Too Short!')
+                .max(50, 'Too Long!')
+                .required('Name is required!'),
+        }),
     });
     return (
         <div className="subs-form">
@@ -28,14 +39,14 @@ const SubscribeForm = () => {
 							brief</a>:
 						an indiscriminate daily digest from our RSS feed for your reading pleasure and professional
 						development.
-					</p>
+					    </p>
 
                         <p className="subs-form__text">
                             oh! and if you let us know which of our editorial streams most floats your boat,
                             we'll also send you the occasional curated letter from one of the humans on
                             our team of editors - all of whom are far too busy
                             publishing stories to spam you in any way, we promise.
-					</p>
+					    </p>
                     </div>
 
                     <div className="subs-form__inputs">
@@ -47,8 +58,12 @@ const SubscribeForm = () => {
                             htmlFor="email"
                             spanLabel="Email Address"
                             value={formik.values.email}
+                            onBlur={formik.handleBlur}
                             onChange={formik.handleChange}
                         />
+                        {formik.touched.email && formik.errors.email ? (
+                            <div className="error-msg" style={{ marginBottom: '10px' }}>{formik.errors.email}</div>
+                        ) : null}
 
                         <Input
                             id="name"
@@ -58,8 +73,12 @@ const SubscribeForm = () => {
                             htmlFor="name"
                             spanLabel="First Name"
                             value={formik.values.name}
+                            onBlur={formik.handleBlur}
                             onChange={formik.handleChange}
                         />
+                        {formik.touched.name && formik.errors.name ? (
+                            <div className="error-msg">{formik.errors.name}</div>
+                        ) : null}
                     </div>
 
                     <div className="subs-form__checkboxes">
@@ -103,7 +122,13 @@ const SubscribeForm = () => {
                     <input type="hidden" name="list" value="OMTKMVEF3BfWHMve4EY8925g" />
                     <input type="hidden" name="subform" value="yes" />
 
-                    <button className="subs-form__btn" type="submit" name="submit" id="submit">Get great stories by email</button>
+                    <button
+                        id="submit"
+                        type="submit"
+                        name="submit"
+                        className="subs-form__btn"
+                        disabled={formik.errors.name || formik.errors.email}
+                    >Get great stories by email</button>
                 </form>
             </div>
         </div >

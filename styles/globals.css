@@ -274,6 +274,11 @@ a {
 	}
 }
 
+.error-msg {
+    margin-top: -15px;
+    color: red;
+}
+
 @media only screen and (max-width: 375px) {
 	.subs-form__inputs {
 		margin-top: 10px;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Input = (
-    { htmlFor, spanLabel, id, type, name, placeholder, onChange, value }
+    { htmlFor, spanLabel, id, type, name, placeholder, onChange, value, onBlur }
 ) => (
     <label className="subs-form__labels" htmlFor={htmlFor}>
         <span>{spanLabel}</span>
@@ -12,6 +12,8 @@ const Input = (
             placeholder={placeholder}
             onChange={onChange}
             value={value}
+            onBlur={onBlur}
+            required
         />
     </label>
 )

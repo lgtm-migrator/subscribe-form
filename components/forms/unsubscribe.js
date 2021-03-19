@@ -1,5 +1,6 @@
 import React from 'react';
 import { useFormik } from 'formik';
+import * as Yup from 'yup';
 import Input from '../Input';
 
 const UnsubscribeForm = () => {
@@ -7,8 +8,14 @@ const UnsubscribeForm = () => {
         initialValues: {
             email: ''
         },
+        validationSchema: Yup.object({
+            email: Yup.string()
+                .min(5, 'Too Short!')
+                .email('Invalid email address!')
+                .required('Email is required!')
+        }),
         onSubmit: values => {
-            console.log(values);
+            alert(JSON.stringify(values, null, 2));
         }
     });
     return (
@@ -35,8 +42,12 @@ const UnsubscribeForm = () => {
                         htmlFor="email"
                         spanLabel="Email Address"
                         value={formik.values.email}
+                        onBlur={formik.handleBlur}
                         onChange={formik.handleChange}
                     />
+                    {formik.touched.email && formik.errors.email ? (
+                        <div className="error-msg">{formik.errors.email}</div>
+                    ) : null}
                 </div>
                 <button className="subs-form__btn unsubscribe" type="submit">Unsubscribe</button>
             </form>

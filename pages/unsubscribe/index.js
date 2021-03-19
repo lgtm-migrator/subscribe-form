@@ -1,5 +1,5 @@
-import Unubscribe from '../../components/unsubscribe';
+import UnsubscribeForm from '../../components/forms/unsubscribe';
 
-const unsubscribe = () => <Unubscribe />
+const unsubscribe = () => <UnsubscribeForm />
 
 export default unsubscribe;

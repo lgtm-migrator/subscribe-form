@@ -21,6 +21,10 @@ export default function Home() {
                 <Link href='/subscribe'>Subscribe page</Link>
                 <br />
                 <Link href='/unsubscribe'>Unsubscribe page</Link>
+                <br />
+                <Link href='/subscribe-formik'>Subscribe page(formik)</Link>
+                <br />
+                <Link href='/unsubscribe-formik'>Unsubscribe page(formik)</Link>
             </div>
         </>
     )

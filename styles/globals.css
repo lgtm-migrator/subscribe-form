@@ -113,14 +113,16 @@ a {
 	margin-bottom: 10px;
 }
 
-.subs-form__checkboxes {
+.subs-form__checkboxes,
+.subs-form_checkboxes {
 	display: flex;
 	flex-direction: column;
 	margin-top: 10px;
 	width: 100%;
 }
 
-.subs-form__checkboxes p {
+.subs-form__checkboxes p,
+.subs-form_checkboxes p {
 	margin-bottom: 10px;
 	font-weight: 700;
 }

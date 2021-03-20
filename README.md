@@ -187,3 +187,6 @@ https://aws.amazon.com/ru/premiumsupport/knowledge-center/ses-migrate-email-solu
 http://jonathanwthomas.net/quitting-mailchimp-and-moving-my-small-business-email-marketing-to-sendy-for-a-fraction-of-the-cost/
 
 > >
+
+
+FORM PREFERENCES: https://www.technologyreview.com/newsletter-preferences

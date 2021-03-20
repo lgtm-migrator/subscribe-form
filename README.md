@@ -4,7 +4,14 @@
 
 Form server can be launched by:
 
+Development mode:
 ```
+npm run dev
+```
+
+Production mode:
+```
+npm run build
 npm run start
 ```
 

@@ -2,8 +2,9 @@ import React from 'react';
 import { useFormik } from 'formik';
 import { SUBSCRIBE_ACTION } from '../../constants/path';
 import Input from '../Input';
+import Email from '../Email';
 import Checkbox from '../Checkbox';
-import LoginSchema from '../../utils/validation';
+import ValidationSchema from '../../utils/validation';
 
 const SubscribeForm = () => {
     const formik = useFormik({
@@ -11,7 +12,7 @@ const SubscribeForm = () => {
             email: '',
             name: ''
         },
-        validationSchema: LoginSchema
+        validationSchema: ValidationSchema
     });
     return (
         <div className="subs-form">
@@ -41,13 +42,7 @@ const SubscribeForm = () => {
                     </div>
 
                     <div className="subs-form__inputs">
-                        <Input
-                            id="email"
-                            type="email"
-                            name="email"
-                            placeholder="your email"
-                            htmlFor="email"
-                            spanLabel="Email Address"
+                        <Email
                             value={formik.values.email}
                             onBlur={formik.handleBlur}
                             onChange={formik.handleChange}

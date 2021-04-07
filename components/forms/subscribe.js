@@ -4,7 +4,7 @@ import { SUBSCRIBE_ACTION } from '../../constants/path';
 import Input from '../Input';
 import Email from '../Email';
 import Checkbox from '../Checkbox';
-import ValidationSchema from '../../utils/validation';
+import { SubscribeValidationSchema } from '../../utils/validation';
 
 const SubscribeForm = () => {
     const formik = useFormik({
@@ -12,7 +12,7 @@ const SubscribeForm = () => {
             email: '',
             name: ''
         },
-        validationSchema: ValidationSchema
+        validationSchema: SubscribeValidationSchema
     });
     return (
         <div className="subs-form">

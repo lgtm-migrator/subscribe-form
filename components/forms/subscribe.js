@@ -3,7 +3,7 @@ import { useFormik } from 'formik';
 import { SUBSCRIBE_ACTION } from '../../constants/path';
 import Input from '../Input';
 import Checkbox from '../Checkbox';
-import * as Yup from 'yup';
+import LoginSchema from '../../utils/validation';
 
 const SubscribeForm = () => {
     const formik = useFormik({
@@ -11,16 +11,7 @@ const SubscribeForm = () => {
             email: '',
             name: ''
         },
-        validationSchema: Yup.object({
-            email: Yup.string()
-                .min(5, 'Too Short!')
-                .email('Invalid email address!')
-                .required('Email is required!'),
-            name: Yup.string()
-                .min(2, 'Too Short!')
-                .max(50, 'Too Long!')
-                .required('Name is required!'),
-        }),
+        validationSchema: LoginSchema
     });
     return (
         <div className="subs-form">

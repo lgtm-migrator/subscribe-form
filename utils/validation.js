@@ -1,6 +1,6 @@
 import * as Yup from 'yup';
 
-const ValidationSchema = Yup.object({
+const SubscribeValidationSchema = Yup.object({
     email: Yup.string()
         .min(5, 'Too Short!')
         .email('Invalid email address!')
@@ -11,4 +11,11 @@ const ValidationSchema = Yup.object({
         .required('Name is required!'),
 });
 
-export default ValidationSchema;
+const UnSubscribeValidationSchema = Yup.object({
+    email: Yup.string()
+        .min(5, 'Too Short!')
+        .email('Invalid email address!')
+        .required('Email is required!')
+});
+
+export { SubscribeValidationSchema, UnSubscribeValidationSchema };

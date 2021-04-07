@@ -2,8 +2,9 @@ import React from 'react';
 import { useFormik } from 'formik';
 import { SUBSCRIBE_ACTION } from '../../constants/path';
 import Input from '../Input';
+import Email from '../Email';
 import Checkbox from '../Checkbox';
-import * as Yup from 'yup';
+import ValidationSchema from '../../utils/validation';
 
 const SubscribeForm = () => {
     const formik = useFormik({
@@ -11,16 +12,7 @@ const SubscribeForm = () => {
             email: '',
             name: ''
         },
-        validationSchema: Yup.object({
-            email: Yup.string()
-                .min(5, 'Too Short!')
-                .email('Invalid email address!')
-                .required('Email is required!'),
-            name: Yup.string()
-                .min(2, 'Too Short!')
-                .max(50, 'Too Long!')
-                .required('Name is required!'),
-        }),
+        validationSchema: ValidationSchema
     });
     return (
         <div className="subs-form">
@@ -50,13 +42,7 @@ const SubscribeForm = () => {
                     </div>
 
                     <div className="subs-form__inputs">
-                        <Input
-                            id="email"
-                            type="email"
-                            name="email"
-                            placeholder="your email"
-                            htmlFor="email"
-                            spanLabel="Email Address"
+                        <Email
                             value={formik.values.email}
                             onBlur={formik.handleBlur}
                             onChange={formik.handleChange}

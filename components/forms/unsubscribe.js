@@ -1,23 +1,19 @@
 import React from 'react';
 import { useFormik } from 'formik';
-import * as Yup from 'yup';
-import Input from '../Input';
+import Email from '../Email';
+import ValidationSchema from '../../utils/validation';
 
 const UnsubscribeForm = () => {
     const formik = useFormik({
         initialValues: {
             email: ''
         },
-        validationSchema: Yup.object({
-            email: Yup.string()
-                .min(5, 'Too Short!')
-                .email('Invalid email address!')
-                .required('Email is required!')
-        }),
+        validationSchema: ValidationSchema.email,
         onSubmit: values => {
             alert(JSON.stringify(values, null, 2));
         }
     });
+
     return (
         <div className="subs-form">
             <div className="subs-form__wrapper"></div>
@@ -34,13 +30,7 @@ const UnsubscribeForm = () => {
 			    </p>
                 </div>
                 <div className="subs-form__inputs">
-                    <Input
-                        id="email"
-                        type="email"
-                        name="email"
-                        placeholder="your email"
-                        htmlFor="email"
-                        spanLabel="Email Address"
+                    <Email
                         value={formik.values.email}
                         onBlur={formik.handleBlur}
                         onChange={formik.handleChange}

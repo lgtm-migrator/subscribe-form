@@ -31,11 +31,11 @@ const UnsubscribeForm = () => {
                         </div>
                         <div className="subs-form__inputs">
                             <label className="subs-form__labels" htmlFor='email'>
-                                <span>Email</span>
+                                <span>Email Address</span>
                                 <Field
                                     name="email"
                                     type="email"
-                                    placeholder="email"
+                                    placeholder="your email"
                                     required
                                 />
                             </label>
@@ -43,7 +43,11 @@ const UnsubscribeForm = () => {
                                 <div className="error-msg">{errors.email}</div>
                             ) : null}
                         </div>
-                        <button className="subs-form__btn unsubscribe" type="submit">Unsubscribe</button>
+                        <button
+                            type="submit"
+                            className="subs-form__btn unsubscribe"
+                            style={{ display: 'block', margin: '25px auto' }}
+                        >Unsubscribe</button>
                     </Form>
                 )}
             </Formik>

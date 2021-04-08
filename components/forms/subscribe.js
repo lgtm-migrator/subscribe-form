@@ -1,17 +1,15 @@
 import React from 'react';
-import Checkbox from '../Checkbox';
 import { SubscribeValidationSchema } from '../../utils/validation';
 import { Formik, Field, Form } from 'formik';
+import SubCheckboxGroup from '../Checkbox/Subscribe';
+import Email from '../Email';
+import Logo from '../../UI/Logo';
 
 const SubscribeForm = () => {
     return (
         <div className="subs-form">
             <div className="subs-form__wrapper">
-                <div className="subs-form__logo">
-                    <a href="https://hackernoon.com">
-                        <img src="images/hackernoon.png" alt="Hackernoon logo" />
-                    </a>
-                </div>
+                <Logo />
                 <Formik
                     initialValues={{
                         name: '',
@@ -45,20 +43,12 @@ const SubscribeForm = () => {
                             </div>
 
                             <div className="subs-form__inputs" style={{ marginTop: '30px' }}>
-                                <label className="subs-form__labels" htmlFor='email'>
-                                    <span>Email Address</span>
-                                    <Field
-                                        name="email"
-                                        type="email"
-                                        placeholder="your email"
-                                        required
-                                    />
-                                </label>
+                                <Email />
                                 {touched.email && errors.email && (
                                     <div className="error-msg" style={{ marginBottom: '10px' }}>{errors.email}</div>
                                 )}
 
-                                <label className="subs-form__labels" htmlFor='email'>
+                                <label className="subs-form__labels" htmlFor='name'>
                                     <span>First Name</span>
                                     <Field
                                         name="name"
@@ -76,26 +66,7 @@ const SubscribeForm = () => {
                                 <p>how can hacker noon improve your inbox?</p>
                                 <div role="group" aria-labelledby="checkbox-group"
                                     className="subs-form__checkboxes" style={{ padding: '0 0 0 5px', marginBottom: '5px' }}>
-                                    <label className='subs-form__check-label'>
-                                        <Field className="subs-form__checkbox" type="checkbox" name="checked" value="gdpr" />
-                                        I concent to receive promotional emails about your products and services
-                                    </label>
-                                    <label className='subs-form__check-label'>
-                                        <Field className="subs-form__checkbox" type="checkbox" name="checked" value="featured" />
-                                        gimme the techbrief
-                                    </label>
-                                    <label className='subs-form__check-label'>
-                                        <Field className="subs-form__checkbox" type="checkbox" name="checked" value="blockchain&cryptocurrency" />
-                                        do you even blockchain/crypto bruh
-                                    </label>
-                                    <label className='subs-form__check-label'>
-                                        <Field className="subs-form__checkbox" type="checkbox" name="checked" value="programming" />
-                                        I like clean code and I cannot lie
-                                    </label>
-                                    <label className='subs-form__check-label'>
-                                        <Field className="subs-form__checkbox" type="checkbox" name="checked" value="startups&feature&technology" />
-                                        send me stories about startups and the future of everything
-                                    </label>
+                                    <SubCheckboxGroup />
                                 </div>
                             </div>
 

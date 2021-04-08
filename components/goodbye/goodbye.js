@@ -1,4 +1,3 @@
-
 const Goodbye = () => (
     <div className="goodbye">
         <div className="goodbye__inner">

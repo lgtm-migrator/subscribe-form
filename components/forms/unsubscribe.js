@@ -39,9 +39,9 @@ const UnsubscribeForm = () => {
                                     required
                                 />
                             </label>
-                            {touched.email && errors.email ? (
+                            {touched.email && errors.email && (
                                 <div className="error-msg">{errors.email}</div>
-                            ) : null}
+                            )}
                         </div>
                         <button
                             type="submit"

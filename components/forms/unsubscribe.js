@@ -37,6 +37,7 @@ const UnsubscribeForm = () => {
                                 type="submit"
                                 className="subs-form__btn unsubscribe"
                                 style={{ display: 'block', margin: '25px auto' }}
+                                disabled={errors.email}
                             >Unsubscribe</button>
                         </Form>
                     )}

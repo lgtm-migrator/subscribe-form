@@ -69,6 +69,10 @@ a {
   padding: 0 10px;
 }
 
+.left__wrapper {
+  max-width: 450px;
+}
+
 .left__img {
   max-width: 450px;
 }

@@ -21,6 +21,8 @@ export default function Home() {
                 <Link href='/subscribe'>Subscribe page</Link>
                 <br />
                 <Link href='/unsubscribe'>Unsubscribe page</Link>
+                <br />
+                <Link href='/email-preferences'>Email preferences page</Link>
             </div>
         </>
     )

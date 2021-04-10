@@ -1,20 +1,20 @@
 import Image from 'next/image';
 import Checkbox from '../Checkbox';
-import { Formik, Field, Form } from 'formik';
+import { Formik, Form } from 'formik';
 
-const Preferences = () => {
+const AdvancedSubPage = () => {
     return (
         <section style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
             <div style={{ width: '450px', paddingTop: '80px' }}>
                 <Image
-                    src='/images/email-pre.jpg'
+                    src='/images/adv-page-cat.jpg'
                     alt='cat'
                     width={450}
                     height={300}
                 />
                 <h1>Newsletters</h1>
                 <h2>Receive the latest emerging technology news in your inbox.</h2>
-                <p>Select the newsletters you’d like to receive and enter your email below to sign up.<a href='#'><u>Sign in</u></a> to manage your existing preferences.</p>
+                <p>Select the newsletters you’d like to receive and enter your email below to sign up.<a href='#'><u>Sign in</u></a> to manage your existing AdvancedSubPage.</p>
             </div>
             <div style={{ marginLeft: '50px' }}>
                 <Formik
@@ -119,4 +119,4 @@ const Preferences = () => {
     );
 }
 
-export default Preferences;
+export default AdvancedSubPage;

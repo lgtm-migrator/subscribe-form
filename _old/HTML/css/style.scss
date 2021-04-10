@@ -114,6 +114,10 @@ a {
 .left {
 
 	padding: 0 10px;
+	
+	&__wrapper {
+		max-width: 450px;
+	}
 
 	&__img {
 		max-width: 450px;

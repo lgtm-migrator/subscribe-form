@@ -36,7 +36,7 @@ https://github.com/atherdon/subscription-server
 -   https://www.howtographql.com/react-apollo/0-introduction/
 -   https://github.com/prisma-labs/graphql-yoga
 -   https://itnext.io/building-a-graphql-api-using-graphql-yoga-lambda-and-mongodb-c0c195621f47
-
+- https://amedpal.com/blog/contact-form-with-api-gateway-and-lambda.html
 ---
 
 -   advanced "serverless" email subscription form

@@ -1,122 +1,297 @@
 import Image from 'next/image';
 import Checkbox from '../Checkbox';
 import { Formik, Form } from 'formik';
+import * as styles from '../../styles/style.module.css';
 
 const AdvancedSubPage = () => {
     return (
-        <section style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
-            <div style={{ width: '450px', paddingTop: '80px' }}>
-                <Image
-                    src='/images/adv-page-cat.jpg'
-                    alt='cat'
-                    width={450}
-                    height={300}
-                />
-                <h1>Newsletters</h1>
-                <h2>Receive the latest emerging technology news in your inbox.</h2>
-                <p>Select the newsletters you’d like to receive and enter your email below to sign up.<a href='#'><u>Sign in</u></a> to manage your existing AdvancedSubPage.</p>
-            </div>
-            <div style={{ marginLeft: '50px' }}>
-                <Formik
-                    initialValues={{
-                        checked: []
-                    }}
-                    onSubmit={async (values) => {
-                        await new Promise((r) => setTimeout(r, 500));
-                        alert(JSON.stringify(values, null, 2));
-                    }}
-                >
-                    {({ errors, touched, isValidating }) => (
-                        <Form>
-                            <div style={{ display: 'flex', flexWrap: 'wrap', maxWidth: '800px' }}>
-                                <div style={{ display: 'flex', margin: '20px' }}>
-                                    <Checkbox content='' value='thematics' />
-                                    <div>
-                                        <strong style={{ color: '#757575', fontSize: '13px' }}>Weekdays</strong>
-                                        <p style={{ fontSize: '20px', marginBottom: '3px' }}>Thematics</p>
-                                        <p>Your daily dose of what's up in emerging technology</p>
-                                    </div>
+        <div className={styles.container}>
+            <div className={styles.wrapper}>
+
+                <div className={styles.left}>
+                    <div className={styles.left__wrapper}>
+                        <div className={styles.left__img}>
+                            <img src="/adv-page-cat.jpg" alt="cat" />
+                        </div>
+                        <h1 className={styles.left__title}>
+                            Newsletters
+					    </h1>
+                        <p className={styles.left__subtitle}>
+                            Receive the latest emerging technology news in your inbox.
+					    </p>
+                        <p className={styles.left__text}>
+                            Select the newsletters you’d like to receive and enter your email below to sign up. <a className={styles.link} style={styled_a}
+                                href="#">Sign in</a> to manage your existing AdvancedSubPage.
+					    </p>
+                    </div>
+                </div>
+
+                <form className={styles.form}>
+                    <div className={styles.form__body}>
+
+                        <div className={styles.form__top}>
+                            <ul className={styles.checkbox__list}>
+
+                                <li className={styles.checkbox__item}>
+                                    <label className={styles.checkbox__label}>
+
+                                        <span className={styles.checkbox__div}>
+                                            <input type='checkbox' className={styles.checkbox__input} />
+                                            <span className={styles.checkbox__box}></span>
+                                        </span>
+
+                                        <span className={styles.checkbox__content}>
+                                            <h6 className={styles.checkbox__period}>
+                                                Weekdays
+										</h6>
+                                            <h4 className={styles.checkbox__title}>
+                                                Thematics
+										</h4>
+                                            <span className={styles.checkbox__description}>
+                                                Your daily dose of what's up in emerging technology
+										</span>
+                                        </span>
+                                    </label>
+                                </li>
+
+                                <li className={styles.checkbox__item}>
+                                    <label className={styles.checkbox__label}>
+
+                                        <span className={styles.checkbox__div}>
+                                            <input type='checkbox' className={styles.checkbox__input} />
+                                            <span className={styles.checkbox__box}></span>
+                                        </span>
+
+                                        <span className={styles.checkbox__content}>
+                                            <h6 className={styles.checkbox__period}>
+                                                Mondays
+										    </h6>
+                                            <h4 className={styles.checkbox__title}>
+                                                Podcasts
+										    </h4>
+                                            <span className={styles.checkbox__description}>
+                                                Your daily dose of what's up in emerging technology
+										</span>
+                                        </span>
+                                    </label>
+                                </li>
+
+                                <li className={styles.checkbox__item}>
+                                    <label className={styles.checkbox__label}>
+
+                                        <span className={styles.checkbox__div}>
+                                            <input type='checkbox' className={styles.checkbox__input} />
+                                            <span className={styles.checkbox__box}></span>
+                                        </span>
+
+                                        <span className={styles.checkbox__content}>
+                                            <h6 className={styles.checkbox__period}>
+                                                Saturdays
+										    </h6>
+                                            <h4 className={styles.checkbox__title}>
+                                                Blockchain & Cryptocurrencies
+										    </h4>
+                                            <span className={styles.checkbox__description}>
+                                                Your daily dose of what's up in emerging technology
+										</span>
+                                        </span>
+                                    </label>
+                                </li>
+                            </ul>
+
+                            <ul className={styles.checkbox__list}>
+
+                                <li className={styles.checkbox__item}>
+                                    <label className={styles.checkbox__label}>
+
+                                        <span className={styles.checkbox__div}>
+                                            <input type='checkbox' className={styles.checkbox__input} checked readOnly />
+                                            <span className={styles.checkbox__box}></span>
+                                        </span>
+
+                                        <span className={styles.checkbox__content}>
+                                            <h6 className={styles.checkbox__period}>
+                                                Fridays
+										    </h6>
+                                            <h4 className={styles.checkbox__title}>
+                                                TechBrief
+										    </h4>
+                                            <span className={styles.checkbox__description}>
+                                                Your daily dose of what's up in emerging technology
+										</span>
+                                            <span className={styles.checkbox__mark}>
+                                                <span className={`${styles.checkbox__span} ${styles.green}`}>
+                                                    subscriber exclusive
+											</span>
+                                            </span>
+                                        </span>
+                                    </label>
+                                </li>
+
+                                <li className={styles.checkbox__item}>
+                                    <label className={styles.checkbox__label}>
+
+                                        <span className={styles.checkbox__div}>
+                                            <input type='checkbox' className={styles.checkbox__input} />
+                                            <span className={styles.checkbox__box}></span>
+                                        </span>
+
+                                        <span className={styles.checkbox__content}>
+                                            <h6 className={styles.checkbox__period}>
+                                                Monthly
+										    </h6>
+                                            <h4 className={styles.checkbox__title}>
+                                                Gaming
+										    </h4>
+                                            <span className={styles.checkbox__description}>
+                                                Your daily dose of what's up in emerging technology
+										</span>
+                                        </span>
+                                    </label>
+                                </li>
+
+                                <li className={styles.checkbox__item}>
+                                    <label className={styles.checkbox__label}>
+
+                                        <span className={styles.checkbox__div}>
+                                            <input type='checkbox' className={styles.checkbox__input} />
+                                            <span className={styles.checkbox__box}></span>
+                                        </span>
+
+                                        <span className={styles.checkbox__content}>
+                                            <h6 className={styles.checkbox__period}>
+                                                Saturdays
+										    </h6>
+                                            <h4 className={styles.checkbox__title}>
+                                                Coding
+										    </h4>
+                                            <span className={styles.checkbox__description}>
+                                                Your daily dose of what's up in emerging technology
+										</span>
+                                        </span>
+                                    </label>
+                                </li>
+                            </ul>
+
+                        </div>
+
+
+                        <div className={styles.form__middle}>
+                            <div className={styles.form__middle_title}>
+                                More from MIT Technology Review
+						    </div>
+
+                            <div className={styles.form__middle_checkboxes}>
+
+                                <ul className={styles.checkbox__list}>
+
+                                    <li className={styles.checkbox__item}>
+                                        <label className={styles.checkbox__label}>
+
+                                            <span className={styles.checkbox__div}>
+                                                <input type='checkbox' className={styles.checkbox__input} checked readOnly />
+                                                <span className={styles.checkbox__box}></span>
+                                            </span>
+
+                                            <span className={styles.checkbox__content}>
+                                                <h6 className={styles.checkbox__period}>
+                                                    Occasionally
+											    </h6>
+                                                <h4 className={styles.checkbox__title}>
+                                                    Updates and special offers
+											    </h4>
+                                                <span className={styles.checkbox__description}>
+                                                    Get special discounts, top stories, & information on other initiatives
+											</span>
+                                                <span className={styles.checkbox__mark}>
+                                                    <span className={`${styles.checkbox__span} ${styles.gray}`}>
+                                                        by application only
+												</span>
+                                                </span>
+                                            </span>
+                                        </label>
+                                    </li>
+
+                                    <li className={styles.checkbox__item}>
+                                        <label className={styles.checkbox__label}>
+
+                                            <span className={styles.checkbox__div}>
+                                                <input type='checkbox' className={styles.checkbox__input} />
+                                                <span className={styles.checkbox__box}></span>
+                                            </span>
+
+                                            <span className={styles.checkbox__content}>
+                                                <h6 className={styles.checkbox__period}>
+                                                    Occasionally
+											    </h6>
+                                                <h4 className={styles.checkbox__title}>
+                                                    Global Panel
+											    </h4>
+                                                <span className={styles.checkbox__description}>
+                                                    Examine today's technology trends & contribute to our custom research
+											</span>
+                                            </span>
+                                        </label>
+                                    </li>
+
+                                </ul>
+
+                                <ul className={styles.checkbox__list}>
+
+                                    <li className={styles.checkbox__item}>
+                                        <label className={styles.checkbox__label}>
+
+                                            <span className={styles.checkbox__div}>
+                                                <input type='checkbox' className={styles.checkbox__input} />
+                                                <span className={styles.checkbox__box}></span>
+                                            </span>
+
+                                            <span className={styles.checkbox__content}>
+                                                <h6 className={styles.checkbox__period}>
+                                                    Occasionally
+											    </h6>
+                                                <h4 className={styles.checkbox__title}>
+                                                    Startups
+											    </h4>
+                                                <span className={styles.checkbox__description}>
+                                                    Learn about our virtual and in-person events
+											</span>
+                                            </span>
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className={styles.form__bottom}>
+                            <div className={styles.form__bottom_wrapper}>
+                                <div className={styles.form__bottom_email}>
+                                    <span className={styles.form__bottom_email_text}>Email</span>
+                                    <input type='email' className={styles.form__bottom_input} />
                                 </div>
-                                <div style={{ display: 'flex', margin: '20px' }}>
-                                    <Checkbox content='' value='techbrief' />
-                                    <div>
-                                        <strong style={{ color: '#757575', fontSize: '13px' }}>Fridays</strong>
-                                        <p style={{ fontSize: '20px', marginBottom: '3px' }}>TechBrief</p>
-                                        <p>Your daily dose of what's up in emerging technology</p>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'flex', margin: '20px' }}>
-                                    <Checkbox content='' value='podcasts' />
-                                    <div>
-                                        <strong style={{ color: '#757575', fontSize: '13px' }}>Mondays</strong>
-                                        <p style={{ fontSize: '20px', marginBottom: '3px' }}>Podcasts</p>
-                                        <p>Your daily dose of what's up in emerging technology</p>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'flex', margin: '20px' }}>
-                                    <Checkbox content='' value='gaming' />
-                                    <div>
-                                        <strong style={{ color: '#757575', fontSize: '13px' }}>Monthly</strong>
-                                        <p style={{ fontSize: '20px', marginBottom: '3px' }}>Gaming</p>
-                                        <p>Your daily dose of what's up in emerging technology</p>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'flex', margin: '20px' }}>
-                                    <Checkbox content='' value='blockchain&cryptocurrencies' />
-                                    <div>
-                                        <strong style={{ color: '#757575', fontSize: '13px' }}>Saturdays</strong>
-                                        <p style={{ fontSize: '20px', marginBottom: '3px' }}>Blockchain & Cryptocurrencies</p>
-                                        <p>Your daily dose of what's up in emerging technology</p>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'flex', margin: '20px' }}>
-                                    <Checkbox content='' value='coding' />
-                                    <div>
-                                        <strong style={{ color: '#757575', fontSize: '13px' }}>Saturdays</strong>
-                                        <p style={{ fontSize: '20px', marginBottom: '3px' }}>Coding</p>
-                                        <p>Your daily dose of what's up in emerging technology</p>
-                                    </div>
+                                <div className={styles.form__bottom_btn}>
+                                    <button type='submit'>Submit subscription</button>
                                 </div>
                             </div>
-                            <h3 style={{ marginTop: '50px' }}>More from MIT Technology Review</h3>
-                            <hr />
-                            <div style={{ display: 'flex', flexWrap: 'wrap', maxWidth: '800px' }}>
-                                <div style={{ display: 'flex', margin: '20px', maxWidth: '400px' }}>
-                                    <Checkbox content='' value='special-offers' />
-                                    <div>
-                                        <strong style={{ color: '#757575', fontSize: '13px' }}>Occasionally</strong>
-                                        <p style={{ fontSize: '20px', marginBottom: '3px' }}>Updates and special offers</p>
-                                        <p>Get special discounts, top stories, & information on other initiatives</p>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'flex', margin: '20px', maxWidth: '400px' }}>
-                                    <Checkbox content='' value='startups' />
-                                    <div>
-                                        <strong style={{ color: '#757575', fontSize: '13px' }}>Occasionally</strong>
-                                        <p style={{ fontSize: '20px', marginBottom: '3px' }}>Startups</p>
-                                        <p>Learn about our virtual and in-person events</p>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'flex', margin: '20px', maxWidth: '400px' }}>
-                                    <Checkbox content='' value='glob-panel' />
-                                    <div>
-                                        <strong style={{ color: '#757575', fontSize: '13px' }}>Occasionally</strong>
-                                        <p style={{ fontSize: '20px', marginBottom: '3px' }}>Global Panel</p>
-                                        <p>Examine today's technology trends & contribute to our custom research</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button
-                                type='submit'
-                                className='subs-form__btn'
-                                style={{ display: 'block', margin: '20px auto' }}
-                            >Submit subscription</button>
-                        </Form>
-                    )}
-                </Formik>
+
+                        </div>
+
+                        <div className={styles.form__bottom_terms}>
+                            <a className={styles.link} style={styled_a} href="#">Terms of Service</a> and <a className={styles.link} style={styled_a} href="#">Privacy Policy</a>
+                        </div>
+
+                    </div>
+                </form>
             </div>
-        </section>
+        </div >
     );
+}
+
+const styled_a = {
+    color: '#3b3b3b',
+    textDecoration: 'none',
+    transition: 'all 0.2s linear'
 }
 
 export default AdvancedSubPage;

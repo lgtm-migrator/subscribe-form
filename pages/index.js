@@ -22,7 +22,7 @@ export default function Home() {
                 <br />
                 <Link href='/unsubscribe'>Unsubscribe page</Link>
                 <br />
-                <Link href='/advanced-sub'>Email preferences page</Link>
+                <Link href='/advanced-sub'>Advanced subscription page</Link>
             </div>
         </>
     )

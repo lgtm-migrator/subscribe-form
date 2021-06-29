@@ -34,6 +34,18 @@ https://www.smartinsights.com/email-marketing/email-targeting/how-to-segment-you
 https://www.producthunt.com/posts/newsletters-to-kindle
 
 
+
+https://www.protocol.com/newsletters/
+
+
+
+=================
+
+https://hackernoon.com/tagged/hackernoon-letter
+
+
+
+
 https://newslettercollector.com/newsletter/the-only-limit-to-ai-is-human-imagination-part-two(2)/
 
 
@@ -133,3 +145,36 @@ https://hackernoon.com/react-native-car-parking-finder-app-ui-clone-2-scrollings
 Amazon UI Clone with React Native #1 : Setting up Menu Bar
 
 https://hackernoon.com/amazon-ui-clone-with-react-native-1-setting-up-menu-bar-u91g32mb
+
+
+https://twitter.com/i/newsletters
+
+https://github.com/search?q=license%3Acc-by-4.0&type=Repositories&ref=advsearch&l=&l=
+
+
+i tried to use this link in our thematic newsletter, and some free checkers told me that this link located in some blacklist.
+Maybe we can use the same tool and check all of our links?
+https://hackernoon.com/how-to-process-covid-19-data-from-whoint-dj1v3uw5
+< How does SpamAssassin determine if an email "Contains an URL listed in the SBL blocklist"?
+https://www.spamhaus.org/sbl/
+http://www.surbl.org/
+
+https://hunter.io/templates
+
+
+one of the ways of cleaning up our newsletter database is to use one of those guys.
+plus, we can offer them sponsorship package(they are competitors, Utsav can use it as sales point)
+i think we need to try at least test-drive, because removing dead-souls can affect our open-rates(drive them up) and this is good for sponsor reports
+https://www.zerobounce.net/email-validation-pricing/
+https://clearout.io/
+https://neverbounce.com/
+small guys
+https://www.validity.com/products/briteverify/
+https://www.datavalidation.com/
+https://listwisehq.com/
+https://www.mailboxvalidator.com/
+https://quickemailverification.com/
+
+
+
+

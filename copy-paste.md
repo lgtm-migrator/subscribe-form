@@ -176,5 +176,52 @@ https://www.mailboxvalidator.com/
 https://quickemailverification.com/
 
 
+=-----
 
 
+We could also revisit a page like this https://forms.technologyreview.com/newsletters/ and/or each verified contributor having their own newsletter
+
+
+
+Can you share your morning routine? How are you keeping yourself in shape?
+There's a significant shift in becoming a digital nomad, but we also facing more issues related to health with it.
+What should I tell my wife/GF/family about switching to remove work?
+I think they didn't ready for that kind of change.
+Remove work usually an excellent option for a professional that in his 30-40 and wants to have a more flexible schedule.
+But it doesn't work for students or juniors. In my opinion, they need to be put in the same place as other developers. Tell me what do you think.
+Are you investing in Bitcoin?
+What tools you're using daily as part of your work?
+What books do you read to grow as a person
+What is your main goal for 2020
+What founder shouldn't do while building a remote team?
+Team management, recruiting, and team building events are my main concerns of working remotely trend.
+I think these topics are hard to overcome, especially for small companies. What do you think?
+Burnout is a common issue for remote workers. How do you recharging yourself?
+How often should people be trained, working remotely, so they can grow their skills?
+What do you think about daily standups? How can remote workers connect with other team members, that working from the office?
+When developers are working remotely, it's actually easy to track. You just need to check his pull requests. Salespersons can be tracked by calls/deals. But how to track, for example, designers or managers?
+
+
+
+=====
+
+
+(feel free to edit, add your opinions)
+
+Different Feed Subscriptions(top-story, blockchain, software) per user
+Not a Mailchimp
+Easy to book/extend/change sponsor/plan campaigns in advance
+Secure/no-spam-folder issues
+Analytics/CTA, heat map/Tracking “magic” - passing the ball to Natasha
+Brand reports(should help Daria - but I don’t have a lot of details here)
+Costs reduce
+Separated Contact List/Lists
+Clear “product packaging”
+Past noonifications archive
+Price point. How much it will cost to us, especially as we grow from: sending 400k emails/month into 2.1m emails/month
+
+
+domain reputation for emails
+http://www.reputationauthority.org/domain_lookup.php?ip=hackernoon.com&ipvalid=&Submit.x=0&Submit.y=0
+
+http://www.barracudacentral.org/lookups/lookup-reputation

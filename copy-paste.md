@@ -48,3 +48,88 @@ https://messaging-custom-newsletters.nytimes.com/template/oakv2?campaign_id=158&
 
 
 https://mailchi.mp/hackernoon/wtf-is-application-monitoring-555444
+
+
+----
+
+https://templates.netlify.com/template/eleventy-starter-with-functions/
+https://dribbble.com/shots/3112879-Subscribe-Daily-UI-026
+https://dribbble.com/shots/5473090/attachments/1184427?mode=media
+https://bashooka.com/inspiration/subscription-form-ui-designs/
+https://www.vouchful.com/email-kit/templates/company-newsletter/
+https://help.formspree.io/hc/en-us/articles/360053108134-How-To-Build-a-Contact-Form-with-React
+
+
+https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget/
+
+
+https://kwes.io/#dataManagement
+
+
+
+====
+
+
+https://zapier.com/learn/
+https://zapier.com/blog/automate-meeting-action-items/
+https://zapier.com/blog/managing-a-team-during-crisis/
+https://zapier.com/blog/remote-team-activities/
+https://www.google.com/search?q=airtable+calendar&rlz=1C1GCEA_enUA876UA876&oq=Airtable+calendar&aqs=chrome.0.0l8.2519j0j4&sourceid=chrome&ie=UTF-8
+https://zapier.com/blog/connect-everything-calendar/
+https://zapier.com/learn/automate-apps-examples/
+https://medium.com/@_jimmyrose/zapier-tutorial-how-to-get-started-with-zapier-jimmy-rose-ec63a6677bc6
+
+====
+
+
+https://hackernoon.com/@anuj-shah
+https://hackernoon.com/how-to-build-an-airbnb-clone-with-react-and-elasticsearch-822r73yna
+How to Build an Airbnb clone with React and ElasticSearch
+
+https://hackernoon.com/@krissanawat101
+https://hackernoon.com/react-native-apple-app-of-the-day-animation-1-setup-ui-it1xo321p
+React Native Apple App of the Day Animation Part I : Setup UI
+
+https://hackernoon.com/react-native-apple-app-of-the-day-animation-2-open-image-cu146324o
+React Native Apple App of the Day Animation Part II : Open Image
+
+https://hackernoon.com/react-native-apple-app-of-the-day-animation-3-close-animation-j59w32z7
+React Native Apple App of the Day Animation Part III : Close Animation
+
+
+
+[DIY] AirBnB Clone with React Native Part 5: Loading Modal Implementation
+https://hackernoon.com/react-native-apple-app-of-the-day-animation-3-close-animation-j59w32z7
+
+[DIY] Create an AirBnB Clone with React Native - Part IV: Login Error Notifications
+https://hackernoon.com/building-a-reusable-react-login-component-6q1v3z43
+
+[React Native Development] Camping Spots Finder App UI Clone Part I - Map view UI
+https://hackernoon.com/camping-spots-finder-app-ui-clone-with-react-native-1-map-view-ui-8muy303x
+
+Airbnb Home Screen UI Clone with React Native #1 : Setup UI
+https://hackernoon.com/airbnb-home-screen-ui-clone-with-react-native-1-setup-ui-rkz832f1
+
+Airbnb UI Clone with React Native Part #2 : Recommended Homes View
+https://hackernoon.com/airbnb-home-screen-ui-clone-with-react-native-2-recommended-homes-ib1sw320j
+
+Airbnb UI Clone with React Native Part #3 : Home View Around The World Section
+https://hackernoon.com/airbnb-home-screen-ui-clone-with-react-native-3-home-around-the-world-9z3en32qu
+
+Airbnb UI Clone with React Native Part #4 : Animate Top Tag Section
+https://hackernoon.com/airbnb-home-screen-ui-clone-with-react-native-4-animate-top-tag-section-p61b43xxs
+
+
+Airbnb Home Screen UI Clone with React Native #1 : Setup UI
+
+---
+Car Parking Finder App UI Clone with React Native #1 : Map View
+https://hackernoon.com/react-native-car-parking-finder-app-ui-clone-1-map-view-7hn32go
+
+Car Parking Finder App UI Clone with React Native #2 : Scrolling/Swiping Transition
+https://hackernoon.com/react-native-car-parking-finder-app-ui-clone-2-scrollingswiping-transition-hi10y32ws
+
+
+Amazon UI Clone with React Native #1 : Setting up Menu Bar
+
+https://hackernoon.com/amazon-ui-clone-with-react-native-1-setting-up-menu-bar-u91g32mb

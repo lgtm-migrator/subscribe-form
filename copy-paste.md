@@ -225,3 +225,7 @@ domain reputation for emails
 http://www.reputationauthority.org/domain_lookup.php?ip=hackernoon.com&ipvalid=&Submit.x=0&Submit.y=0
 
 http://www.barracudacentral.org/lookups/lookup-reputation
+
+
+
+https://stripo.email/ru/templates/

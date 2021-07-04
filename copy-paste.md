@@ -229,3 +229,74 @@ http://www.barracudacentral.org/lookups/lookup-reputation
 
 
 https://stripo.email/ru/templates/
+
+
+======================
+
+markdown-to-email
+https://github.com/atherdon/markdown-to-email
+
+
+newsletters 
+https://github.com/atherdon/newsletters 
+
+
+
+publish-page
+https://github.com/atherdon/publish-page
+copy on gitlab, in order to be able to do a quick preview: https://gitlab.com/hackernoon/publish-on-hn
+
+
+
+creative - we tried to combine creative assets with Kien, but we never finished it
+https://github.com/atherdon/creative
+here is a shorter version, without any sensitive information: https://gitlab.com/hackernoon/creative
+
+
+
+
+demo - Utsav told that sometimes when he showcasing our website to clients - some pages get broken. I did a static copy for some pages as a demo. зфпуы
+https://github.com/atherdon/dem
+https://gitlab.com/hackernoon/demo
+
+
+articles-telegram-bot - an attempt to create advanced version of a bot that will subscribe you to some of our rss feeds, similar to techbrief but on telegram. not finished, but good foundation on shoulders on framework that Telegram team accepted.
+https://github.com/atherdon/articles-telegram-bot
+
+
+about-team - an attempt to clone our aobut page, in order to make it without website builder. must be quickier, responsive and much easier to update and not pay recurring payments.
+https://github.com/atherdon/about-team
+
+------------
+
+
+GitLab:
+
+
+https://hackernoon.gitlab.io/subscribe-form/index.html
+
+
+
+https://gitlab.com/hackernoon/publish-on-hn
+https://hackernoon.gitlab.io/publish-on-hn/index-startups.html
+or https://hackernoon.gitlab.io/publish-on-hn/index-privacy.html
+or https://hackernoon.gitlab.io/publish-on-hn/index-nocode.html
+
+
+https://gitlab.com/hackernoon/demo
+
+
+
+https://gitlab.com/hackernoon/creative
+
+
+homepage demo, based on a design that Natasha created 5 months ago
+https://gitlab.com/hackernoon/hp
+preview: https://hackernoon.gitlab.io/hp/index.html
+
+
+Here is a clean version of newsletters repository, focused on content: https://gitlab.com/hackernoon/newsletters-archive
+
+
+
+

@@ -33,6 +33,7 @@ https://github.com/atherdon/subscription-server
 -   https://hackernoon.com/setting-up-a-serverless-contact-form-in-react-using-nodemailer-and-express-19df9fdb20ed
 -   https://github.com/sheelah/react-form-submission-demo
 
+
 -   https://www.howtographql.com/react-apollo/0-introduction/
 -   https://github.com/prisma-labs/graphql-yoga
 -   https://itnext.io/building-a-graphql-api-using-graphql-yoga-lambda-and-mongodb-c0c195621f47
@@ -132,17 +133,22 @@ https://forms.technologyreview.com/newsletters/
 
 https://forms.technologyreview.com/the-algorithm/
 
-## Time report
+---
 
-| Date          | Task                                        | Time spent (HH:mm) | Description                                                                                                                                         |
-| ------------- | ------------------------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sat, 22nd Feb | front-react-markup                          | 4:00               | Markup in react-create-app of the form, ant-design used, primitive validation used. Usage of formik was droped                                      |
-| Sat, 29th Feb | mongo-driver                                | 8:00               | Database creation, was used Mongo DB. Created pure GraphQL server with driver with simple endpoints to save/remove subscribers from DB collections. |
-| Mon, 9th Mar  | api connection                              | 6:34               | Unsucsessfull try to connect frontend and backend API's. Research for frontend GraphQL libraries or realisation examples.                           |
-| Sun, 15th Mar | relay introduction                          | 5:31               | Choosed Relay project, inctroduction to relay, relay architecture observation                                                                       |
-| Sun, 29th Mar | meeting, pages mockups, mutations for front | 4:32               | Creation of pages wireframes, research of mutations on front side of project. Discussion of proejct architecture (not done, still unclear)          |
-| Mon, 20th Apr | Time report                                 | 1:00               | Data gathering for time report                                                                                                                      |
-|               |                                             | Total 28:36        |                                                                                                                                                     |
+
+#### Arthur Tkachenko articles
+
+* [https://hackernoon.com/5-reasons-why-newsletters-should-be-part-of-your-business-strategy](https://hackernoon.com/5-reasons-why-newsletters-should-be-part-of-your-business-strategy)
+* [https://hackernoon.com/organizing-an-advanced-structure-for-html-email-template](https://hackernoon.com/organizing-an-advanced-structure-for-html-email-template)
+* [https://hackernoon.com/how-i-started-to-build-react-components-for-email-templates](https://hackernoon.com/how-i-started-to-build-react-components-for-email-templates)
+* [https://hackernoon.com/introducing-a-simple-npm-module-with-email-templates](https://hackernoon.com/introducing-a-simple-npm-module-with-email-templates)
+* [https://hackernoon.com/glossary-for-non-technies](https://hackernoon.com/glossary-for-non-technies)
+* [https://hackernoon.com/email-marketing-and-how-to-curate-an-effective-business-newsletter](https://hackernoon.com/email-marketing-and-how-to-curate-an-effective-business-newsletter)
+* [https://hackernoon.com/exploring-substack-for-building-your-newsletter](https://hackernoon.com/exploring-substack-for-building-your-newsletter)
+* [https://hackernoon.com/building-a-design-system-for-email-templates-react](https://hackernoon.com/building-a-design-system-for-email-templates-react)
+* [https://hackernoon.com/together4victory-list-of-email-marketing-tools](https://hackernoon.com/together4victory-list-of-email-marketing-tools)
+* [https://hackernoon.com/cool-newsletters-for-developers-part-1](https://hackernoon.com/cool-newsletters-for-developers-part-1)
+* [https://hackernoon.com/cool-resources-for-sending-emails](https://hackernoon.com/cool-resources-for-sending-emails)
 
 ---
 
@@ -200,3 +206,19 @@ http://jonathanwthomas.net/quitting-mailchimp-and-moving-my-small-business-email
 
 
 FORM PREFERENCES: https://www.technologyreview.com/newsletter-preferences
+
+
+
+## Time report
+
+| Date          | Task                                        | Time spent (HH:mm) | Description                                                                                                                                         |
+| ------------- | ------------------------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sat, 22nd Feb | front-react-markup                          | 4:00               | Markup in react-create-app of the form, ant-design used, primitive validation used. Usage of formik was droped                                      |
+| Sat, 29th Feb | mongo-driver                                | 8:00               | Database creation, was used Mongo DB. Created pure GraphQL server with driver with simple endpoints to save/remove subscribers from DB collections. |
+| Mon, 9th Mar  | api connection                              | 6:34               | Unsucsessfull try to connect frontend and backend API's. Research for frontend GraphQL libraries or realisation examples.                           |
+| Sun, 15th Mar | relay introduction                          | 5:31               | Choosed Relay project, inctroduction to relay, relay architecture observation                                                                       |
+| Sun, 29th Mar | meeting, pages mockups, mutations for front | 4:32               | Creation of pages wireframes, research of mutations on front side of project. Discussion of proejct architecture (not done, still unclear)          |
+| Mon, 20th Apr | Time report                                 | 1:00               | Data gathering for time report                                                                                                                      |
+|               |                                             | Total 28:36        |                                                                                                                                                     |
+
+---

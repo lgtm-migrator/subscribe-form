@@ -222,3 +222,6 @@ FORM PREFERENCES: https://www.technologyreview.com/newsletter-preferences
 |               |                                             | Total 28:36        |                                                                                                                                                     |
 
 ---
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)

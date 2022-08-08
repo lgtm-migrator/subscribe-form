@@ -15,3 +15,6 @@
 ![](stack-overflow-email-preferences.png)
 
 ![](twitter-email-preferences-page.png)
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)

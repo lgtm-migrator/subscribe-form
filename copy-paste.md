@@ -298,5 +298,5 @@ preview: https://hackernoon.gitlab.io/hp/index.html
 Here is a clean version of newsletters repository, focused on content: https://gitlab.com/hackernoon/newsletters-archive
 
 
-
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
 

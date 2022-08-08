@@ -36,3 +36,6 @@
 ![](sign-up-sequence.png)
 
 ![](welcome-email-8-638.jpg)
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
